@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpendWise</string>
+    <string name="tagline">Track smart. Spend wise.</string>
+    <string name="logo_desc">SpendWise logo</string>
+
+    <!-- Common -->
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_create_account">Create account</string>
+    <string name="btn_back_login">Back to Login</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to manage your student budget</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="demo_hint">Demo account\nstudent@uni.edu / Student@123</string>
+    <string name="msg_login_success">Login successful</string>
+
+    <!-- Register -->
+    <string name="register_title">Create account</string>
+    <string name="register_subtitle">Join SpendWise and take control of your money</string>
+    <string name="msg_register_success">Account created! Please log in.</string>
+
+    <!-- Forgot / Reset -->
+    <string name="forgot_title">Forgot password?</string>
+    <string name="forgot_subtitle">Enter your registered email and we\'ll send you a recovery link.</string>
+    <string name="btn_send_link">Send recovery link</string>
+    <string name="dialog_recovery_title">Recovery link sent</string>
+    <string name="dialog_recovery_message">A password reset link has been sent to %1$s.\n\n(Simulated - no real email is sent)</string>
+    <string name="dialog_open_reset">Open reset screen</string>
+    <string name="reset_title">Reset password</string>
+    <string name="reset_subtitle">Choose a strong new password for your account.</string>
+    <string name="btn_reset">Update password</string>
+    <string name="msg_password_updated">Password updated! Please log in.</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Hello, %1$s</string>
+    <string name="dashboard_subtitle">Here\'s your spending snapshot</string>
+    <string name="summary_title">This month</string>
+    <string name="summary_spent">Rs. 12,450 spent of Rs. 20,000</string>
+    <string name="modules_title">Modules</string>
+    <string name="module_add_expense">Add Expense</string>
+    <string name="module_history">History</string>
+    <string name="module_budget">Budget</string>
+    <string name="module_reports">Reports</string>
+    <string name="module_categories">Categories</string>
+    <string name="module_profile">Profile</string>
+    <string name="msg_coming_soon">%1$s module coming soon</string>
+
+    <!-- Profile -->
+    <string name="label_name">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_account">Account type</string>
+    <string name="value_student">Student</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_back_dashboard">Back to Dashboard</string>
+    <string name="logout_title">Log out?</string>
+    <string name="logout_message">Are you sure you want to log out?</string>
+    <string name="btn_yes_logout">Yes, log out</string>
+
+    <!-- Errors -->
+    <string name="error_name_required">Full name is required</string>
+    <string name="error_name_short">Name must be at least 3 characters</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_email_exists">This email is already registered</string>
+    <string name="error_email_not_found">No account found with this email</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_weak">Min 6 characters with letters and numbers</string>
+    <string name="error_confirm_required">Please confirm your password</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_invalid_credentials">Incorrect email or password</string>
+</resources>
